@@ -10,7 +10,7 @@ export function AccordionDemo() {
     <Accordion
       type="single"
       collapsible
-      className="mx-40 bg-[#f2f2f2] px-6 py-2 rounded-2xl"
+      className="lg:mx-40 mx-20 bg-[#f2f2f2] px-6 py-2 rounded-2xl"
     >
       <AccordionItem value="item-1">
         <AccordionTrigger className="text-lg hover:no-underline">

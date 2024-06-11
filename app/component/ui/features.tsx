@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 export default function Features() {
   return (
     <>
-      <div className=" mx-44 mt-40 ">
+      <div className=" lg:mx-44 mt-40 ">
         <p className=" text-5xl font-bold text-center mb-16">Features</p>
         <div className=" grid grid-cols-12 gap-5">
           <div className=" col-span-7 space-y-5 border shadow-lg p-5 rounded-3xl">
