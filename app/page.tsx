@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navbar from "./component/ui/navbar";
+import Navbar, { SmNavbar } from "./component/ui/navbar";
 import Herosection from "./component/ui/herosection";
 import Features from "./component/ui/features";
 import Review from "./component/ui/review";
@@ -11,6 +11,7 @@ export default function Home() {
     <>
       <div className="mx-6 mb-20">
         <Navbar />
+        <SmNavbar />
         <Herosection />
         <Features />
         <Review />

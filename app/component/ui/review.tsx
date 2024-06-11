@@ -3,7 +3,7 @@ import ReciewExtra from "./review-extra";
 export default function Review() {
   return (
     <>
-      <div className=" grid grid-cols-3 gap-5 mt-40 lg:mx-44">
+      <div className=" md:grid grid-cols-3 gap-5 space-y-5 md:space-y-0 mt-40 lg:mx-44">
         <div className=" shadow-lg border rounded-2xl p-6 space-y-6">
           <div className=" flex items-center gap-2">
             <img

@@ -4,8 +4,10 @@ export default function Features() {
   return (
     <>
       <div className=" lg:mx-44 mt-40 ">
-        <p className=" text-5xl font-bold text-center mb-16">Features</p>
-        <div className=" grid grid-cols-12 gap-5">
+        <p className=" md:text-5xl text-3xl font-bold text-center mb-16">
+          Features
+        </p>
+        <div className=" md:grid grid-cols-12 gap-5 space-y-5 md:space-y-0">
           <div className=" col-span-7 space-y-5 border shadow-lg p-5 rounded-3xl">
             <img
               src="https://framerusercontent.com/images/1W573oqBQLUf1YUC3PR1ZOtImcA.png"

@@ -4,7 +4,7 @@ export default function Signup() {
   return (
     <>
       <div className=" space-y-10">
-        <h1 className=" text-5xl font-bold text-center mt-40">
+        <h1 className=" md:text-5xl text-3xl font-bold text-center mt-40">
           Sign Up today.
         </h1>
         <div className=" flex gap-5 justify-center items-center ">
