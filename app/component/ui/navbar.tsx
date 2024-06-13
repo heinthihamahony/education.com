@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <div className="text-[#666] md:flex items-center justify-between border-y py-4 hidden">
+      <div className="text-[#666] md:flex items-center justify-between border-b py-4 hidden">
         <div className="flex gap-3">
           <Link className="hover:text-[black]" href="#">
             Features
