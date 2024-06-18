@@ -11,10 +11,13 @@
   "dependencies": {
     "@nextui-org/pagination": "^2.0.32",
     "@nextui-org/react": "^2.4.1",
+    "@nextui-org/scroll-shadow": "^2.1.16",
     "@nextui-org/system": "^2.2.1",
     "@nextui-org/table": "^2.0.35",
     "@nextui-org/theme": "^2.2.5",
     "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@react-stately/data": "^3.11.4",
     "class-variance-authority": "^0.7.0",
