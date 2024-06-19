@@ -97,7 +97,7 @@ export default function HeroDashbook3() {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="mt-3">
           <div className="bg-[#6678BA] w-[900px] flex items-center justify-between px-5">
             {" "}
             <div className="flex items-center gap-6">
@@ -123,7 +123,7 @@ export default function HeroDashbook3() {
                 31 mins 05 secs
               </p>
             </div>
-            <a href="#" className="text-white flex items-center">
+            <a href="#" className="text-white flex items-center ">
               Next{" "}
               <svg
                 className="w-5"

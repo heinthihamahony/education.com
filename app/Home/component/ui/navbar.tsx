@@ -3,6 +3,7 @@ import BasketIcon from "./basket";
 import { ChangeLanguage } from "./change-language";
 import { SearchDemo } from "./search";
 import { SelectDemo } from "./select";
+import Link from "next/link";
 
 export default function Navbar2() {
   return (
@@ -33,6 +34,17 @@ export default function Navbar2() {
           <Button className=" bg-white border">Log In</Button>
           <Button className=" bg-[#6678BA] border text-white">Sign Up</Button>
         </div>
+      </div>
+      <div className="bg-[#6678BA] font-semibold text-lg text-white flex items-center gap-5 px-20 py-4">
+        <Link href="/Home" className=" hover:underline">
+          Home
+        </Link>
+        <Link href="/Dashbook" className=" hover:underline">
+          DashBook1
+        </Link>
+        <Link href="/Dashbook2" className=" hover:underline">
+          DashBook2
+        </Link>
       </div>
     </>
   );
