@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 
 export function AccordionDemo() {
   return (
@@ -69,35 +70,41 @@ export function AccordionDemo() {
             </p>
             <p className="pl-72 text-sm">1 hr 50 mins</p>
           </div>
-          <div className="bg-white px-4 py-3 flex justify-between items-center rounded-xl">
-            <p className=" flex items-center gap-2">
-              {" "}
-              <svg
-                className="w-5 bg-white rounded-full"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="rgba(135,207,126,1)"
-              >
-                <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
-              </svg>
-              Lesson Two: East and West Germany
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.25"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                className="lucide lucide-clapperboard w-5"
-              >
-                <path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3Z" />
-                <path d="m6.2 5.3 3.1 3.9" />
-                <path d="m12.4 3.4 3.1 4" />
-                <path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z" />
-              </svg>
-            </p>
-            <p className="text-sm">55 mins</p>
+
+          <div className="bg-white px-4 py-3 rounded-xl">
+            <Link
+              href="/Dashbook3"
+              className="flex items-center gap-2 justify-between"
+            >
+              <p className=" flex items-center gap-2">
+                {" "}
+                <svg
+                  className="w-5 bg-white rounded-full"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="rgba(135,207,126,1)"
+                >
+                  <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+                </svg>
+                Lesson Two: East and West Germany
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.25"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="lucide lucide-clapperboard w-5"
+                >
+                  <path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3Z" />
+                  <path d="m6.2 5.3 3.1 3.9" />
+                  <path d="m12.4 3.4 3.1 4" />
+                  <path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z" />
+                </svg>
+              </p>
+              <p className="text-sm">31 mins 05 secs</p>
+            </Link>
           </div>
           <div className="bg-white px-4 py-3 flex justify-between items-center rounded-xl">
             <p className=" flex items-center gap-2">
